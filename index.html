@@ -12,6 +12,33 @@
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1 class="page__title">Conversor de medidas</h1>
+            <p class="page__subtitle">Converta distâncias na velocidade da luz</p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+                class="page__logo" alt="Logo imersão dev">
+            <a href="https://alura.com.br/" target="_blank" class="page__link">
+                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" class="alura__logo">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2 class="titulo__principal">Insira a distância, em anos-luz, a ser convertida</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/2590/2590397.png" alt="Ícone de nave espacial"
+                class="titulo__icon">
+        </div>
+        <div class="valores">
+            <input type="number" class="valores__input">
+        </div>
+        <div class="botoes">
+            <button class=botaoCm onclick=converterParaCm()>Converta para centímetros</button>
+            <button class=botaoKm onclick="converterParaMetros()">Converta para metros</button>
+            <button class=botaoLuz onclick="converterParaKm()">Converta para quilômetros</button>
+        </div>
+        <p class="valorConvertido"></p>
+    </main>
+    <footer>Desenvolvido por Marcus Urani</footer>
 </body>
 </html>
