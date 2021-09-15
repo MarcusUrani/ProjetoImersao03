@@ -1,0 +1,113 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url(https://www.showmetech.com.br/wp-content/uploads/2017/12/star-wars1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: rgba(51, 51, 51, 0.6);
+}
+
+.page__title {
+  color: #fff;
+  margin: 0 0 5px;
+}
+
+.page__subtitle {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.page__logo {
+ width: 200px; 
+}
+
+.alura__logo {
+  width: 40px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+main {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #fff;
+  background: rgba(51, 51, 51, 0.6)
+}
+
+.titulo__principal {
+  color: #fff;
+  font-size: 26px;
+  margin: 0 0 5px;
+  padding: 20px 0;
+}
+
+.titulo__icon {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.valores__input {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #F0F8FF;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.botaoCm, .botaoKm, .botaoLuz {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #BA55D3;
+  background-color: #E6E6FA;
+  box-shadow: 1.5px 1.5px 1.5px 1px #BA55D3;
+}
+
+.botaoCm:hover, .botaoKm:hover, .botaoLuz:hover {
+  cursor: pointer;
+  background-color: #BA55D3;
+  border-color:#E6E6FA;
+  color: #fff;
+  box-shadow: 1.5px 1.5px 1.5px 1px #E6E6FA;
+  transition: .5s ease;
+}
+
+.botaoCm:active, .botaoKm:active, .botaoLuz:active {
+  background-color: #E6E6FA;
+  color: #BA55D3;
+  transition: .2 ease;
+}
+
+.valorConvertido {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 40px;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #fff;
+  padding: 20px 0;
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.8);
+}
